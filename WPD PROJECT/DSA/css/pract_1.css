@@ -1,0 +1,92 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #6A6972;
+    overflow-x: hidden;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    /* background: linear-gradient(#ddd6f37a,#f6b3b088); */
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+.container{
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+}
+.Aim{
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+h1,.Aim,span
+{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #353131;
+  margin-top: 2rem;
+  font-size: 15px;
+}
+span{
+ /* background-color: rgb(4, 255, 255); */
+ -webkit-transition: all 0.4s ease-out 0s;
+ -moz-transition: all 0.4s ease-out 0s;
+ -ms-transition: all 0.4s ease-out 0s;
+ -o-transition: all 0.4s ease-out 0s;
+ transition: all 0.4s ease-out 0s;
+ background: -webkit-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+ background: -o-linear-gradient(left, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+ background: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  border-radius: 50px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #6A6972; }
+
+.center{
+   margin-left: 50%;
+   transform: translate(-50%);
+}
+.conclusion{
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+.program{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+.Theory{
+  margin-top: 2rem;
+  color: rgb(41, 41, 47);
+  letter-spacing: 1px;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+.big{
+  box-shadow:1rem 1rem 2rem 2rem rgba(42, 44, 44, 0.248);
+  border-radius: 1rem;
+}
+footer{
+  /* padding: 1rem 1rem 1rem 1rem; */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  left: 50%;
+  right: 50%;
+  transform: translate(40%,50%);
+}
